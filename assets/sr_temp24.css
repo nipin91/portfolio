@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@font-face {
+	font-family: Arial;
+	src: url('https://asset.sriresume.com/templateCss/ArialMT.woff');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.pdf {
+	font-family: 'Lato', sans-serif;
+	/*padding: 15pt 19pt 19pt 19pt;*/
+}
+.word {
+	font-family: ArialMT;
+	/*padding: 15pt 19pt 19pt 19pt;*/
+}
+
+.resume-temp-6 h2 {
+	font-weight: bold;
+	/*font-size: 22.5pt;*/
+	letter-spacing: 7.65pt;
+	line-height: 27pt;
+	color: #020203;
+	text-transform: uppercase;
+}
+
+.resume-temp-6 h3 {
+	/*font-size: 10.5px;*/
+	text-transform: uppercase;
+	color: #020203;
+	padding-bottom: 9pt;
+}
+
+.resume-temp-6 .references .ref-head h3 {
+	/*font-size: 13.5px;*/
+	text-transform: uppercase;
+	color: #020203;
+	padding-bottom: 1pt;
+}
+
+.resume-temp-6 p {
+	/*font-size: 7pt;*/
+	color: #020203;
+}
+
+.resume-temp-6 .exp-label {
+	font-weight: bold;
+	/*font-size: 8pt;*/
+	text-transform: uppercase;
+	color: #020203;
+	padding-bottom: 5px;
+}
+
+.resume-temp-6 .education .edu-label .course {
+	font-weight: bold;
+	/*font-size: 8pt;*/
+	text-transform: capitalize;
+	color: #020203;
+}
+
+.resume-temp-6 ul {
+	list-style: none;
+	/*font-size: 7pt;*/
+	color: #020203;
+}
+
+.resume-temp-6 .section .section-content li {
+	margin-left: 10px;
+	position: relative;
+}
+
+.resume-temp-6 .section .section-content li::before {
+	content: '\2022';
+	margin-right: 8px;
+	/* position: absolute;
+    left: -10px;
+    top: 1px; */
+}
+
+.resume-temp-6 .header {
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.resume-temp-6 .vector {
+	display: inline-block;
+	position: absolute;
+	width: 7.5pt;
+	height: 75pt;
+	background: #ffd6a3;
+}
+
+.resume-temp-6 .header .name-section {
+	display: table-cell;
+	widows: 70%;
+	padding-left: 15pt;
+}
+
+.resume-temp-6 .header .name-section .name {
+	padding-bottom: 7.5pt;
+}
+
+.resume-temp-6 .header .name-section .profrssion {
+	/*font-size: 9pt;*/
+	letter-spacing: 3.78pt;
+	text-transform: uppercase;
+	color: #020203;
+	margin-top: 2pt;
+}
+
+.resume-temp-6 .header .contect-info {
+	display: table-cell;
+	width: 30%;
+	/*font-size: 8pt;*/
+	font-weight: bold;
+}
+
+.resume-temp-6 .header .contect-info p {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-6 .header .contect-info p .icon {
+	display: table-cell;
+	width: 20%;
+}
+
+.resume-temp-6 .header .contect-info p .icon-data {
+	display: table-cell;
+	width: 80%;
+	vertical-align: middle;
+}
+
+.resume-temp-6 .header .contect-info p span {
+	padding-bottom: 7.5pt;
+}
+
+.resume-temp-6 .header .contect-info p .icon img {
+	height: 12pt;
+	padding-left: 24px;
+	vertical-align: middle;
+}
+
+.resume-temp-6 .resume-body {
+	display: table;
+	width: 100%;
+	margin-top: 26.25pt;
+}
+
+.resume-temp-6 .resume-body .resume-body-left {
+	display: table-cell;
+	width: 60%;
+	border-right: 2px solid #bbbdbf;
+	padding-right: 15pt;
+}
+
+.resume-temp-6 .resume-body .resume-body-right {
+	display: table-cell;
+	width: 30%;
+	padding-left: 15pt;
+}
+
+.resume-temp-6 .section {
+	margin-bottom: 22pt;
+}
+
+/*.resume-temp-6 .section:last-child {
+    margin-bottom: 0;
+}*/
+
+.resume-temp-6 .section .section-title {
+	border-bottom: 2px solid #bbbdbf;
+}
+
+.resume-temp-6 .section .section-content {
+	margin-top: 15pt;
+}
+
+.resume-temp-6 .section .section-content .sub-section {
+	margin-bottom: 15pt;
+}
+
+.resume-temp-6 .section .section-content .sub-section .sub-section-content {
+	margin-top: 5pt;
+}
+
+.resume-temp-6 .section .section-content .sub-section:last-child {
+	margin-bottom: 0;
+}
+
+.resume-temp-6 .section .experience,
+.resume-temp-6 .section .education {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-6 .section .experience .exp-left {
+	display: table-cell;
+	width: 30%;
+}
+
+.resume-temp-6 .section .experience .exp-right {
+	display: table-cell;
+	width: 70%;
+}
+
+.resume-temp-6 .section .experience .exp-right .exp-right-content {
+	margin-top: 7px;
+}
+
+.resume-temp-6 .section .education .edu-label {
+	display: table-cell;
+	width: 65%;
+}
+
+.resume-temp-6 .section .education .edu-status {
+	display: table-cell;
+	width: 35%;
+	text-align: end;
+}
+
+.resume-temp-6 .section .education .edu-label .addtional-info {
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.resume-temp-6 .section .project .project-info,
+.resume-temp-6 .section .project .project-label {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-6 .section .project .project-info .project-num,
+.resume-temp-6 .section .project .project-label .label {
+	display: table-cell;
+	width: 30%;
+}
+
+.resume-temp-6 .section .project .project-info .project-name,
+.resume-temp-6 .section .project .project-label .label-content {
+	display: table-cell;
+	width: 70%;
+}
+
+.resume-temp-6 .section .project-cont {
+	border-left: 1.5px solid #e8e6e6;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+
+.resume-temp-6 .section .project-cont .project::before {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #929292;
+	border-radius: 50%;
+	transform: translateX(-200%);
+}
+
+.resume-temp-6 .section .project .project-info {
+	text-transform: uppercase;
+	margin-bottom: 7px;
+}
+
+.resume-temp-6 .section .coloumns2,
+.resume-temp-6 .section .coloumns3 {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-6 .section .coloumns2 .col {
+	display: table-cell;
+	width: 49%;
+	padding-right: 10px;
+}
+
+.resume-temp-6 .section .coloumns3 .col {
+	display: table-cell;
+	width: 33%;
+	padding-right: 10px;
+}
+
+.resume-temp-6 .section .delcration {
+	display: table;
+	width: 100%;
+	margin-top: 15pt;
+}
+
+.resume-temp-6 .section .delcration .user-sign,
+.resume-temp-6 .section .delcration .place {
+	display: table-cell;
+	width: 50%;
+}
+
+.resume-temp-6 .section .delcration .user-sign img {
+	border-bottom: 1.5px solid #bbbdbf;
+}
+
+.resume-temp-6 .section .delcration .user-sign .full-name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.resume-temp-6 .section .delcration .place {
+	vertical-align: middle;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li img {
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+.resume-temp-6 .section .section-content .proficiency .title {
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 7.5pt 0 5px 0;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li {
+	/*    width: 50%;*/
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level {
+	width: 100%;
+	background-color: #bfbfbf;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .basic {
+	background: #929292;
+	height: 3px;
+	width: 25%;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .intermediate {
+	background: #929292;
+	height: 3px;
+	width: 50%;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .advanced {
+	background: #929292;
+	height: 3px;
+	width: 75%;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .expert {
+	background: #929292;
+	height: 3px;
+	width: 100%;
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .basic::after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #929292;
+	border-radius: 50%;
+	/*top: 50%;*/
+	left: 22%;
+	transform: translateY(-25%);
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .intermediate::after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #929292;
+	border-radius: 50%;
+	/*top: 50%;*/
+	left: 47%;
+	transform: translateY(-25%);
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .advanced::after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #929292;
+	border-radius: 50%;
+	/*top: 50%;*/
+	left: 73%;
+	transform: translateY(-25%);
+}
+
+.resume-temp-6 .section .section-content .proficiency ul li .level .expert::after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: #929292;
+	border-radius: 50%;
+	/*top: 50%;*/
+	left: 98%;
+	transform: translateY(-25%);
+}
+
+.resume-temp-6 .section .personal-info ul li {
+	display: table;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.resume-temp-6 .section .personal-info ul li .label {
+	display: table-cell;
+	width: 40%;
+	font-weight: bold;
+}
+
+.resume-temp-6 .section .personal-info ul li .label-details {
+	display: table-cell;
+	width: 60%;
+}
+
+/*----- Referenec css --- */
+
+.resume-temp-6 .references {
+	margin-top: 19pt;
+}
+
+.resume-temp-6 .references .ref-head {
+	position: relative;
+	line-height: 2;
+	margin-bottom: 14pt;
+}
+
+.resume-temp-6 .references .ref-head:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 40%;
+	/* or 100px */
+	border-bottom: 1px solid #231f20;
+}
+
+.resume-temp-6 .references .ref-row {
+	width: 100%;
+}
+
+.resume-temp-6 .references .ref-row .ref-section {
+	float: left;
+	width: 49%;
+	padding-right: 3px;
+	text-transform: uppercase;
+	margin-bottom: 12pt;
+}
+
+.resume-temp-6 .references .ref-row .ref-section:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.resume-temp-6 .references .ref-row .ref-section p {
+	margin-bottom: 2px;
+}
+
+.resume-temp-6 .references .ref-row .ref-section p span {
+	margin-right: 3px;
+}
+
+.resume-temp-6 .references .ref-row .ref-section p .label {
+	font-weight: bold;
+}
+
+.resume-temp-6 .references .ref-row .ref-section .name {
+	margin-bottom: 5.5pt;
+	font-weight: bold;
+}
+
+/* for column partition */
+.resume-temp-6 .section .coloums2,
+.resume-temp-6 .section .coloums3 {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-6 .section .coloums2 .col {
+	display: table-cell;
+	width: 50%;
+	padding-left: 3px;
+}
+
+.resume-temp-6 .section .coloums3 .col {
+	display: table-cell;
+	width: 33%;
+	padding-left: 3px;
+}
+
+.resume-temp-6 .section {
+	clear: both;
+}
+
+/*----*/
+.resume-temp-6 .resume-body-left .computer-proficiency {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-right: 5px;
+	margin-bottom: 7.5pt;
+}
+
+/*.resume-temp-6 .resume-body-left .computer-proficiency .proficiency::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+.resume-temp-6 .resume-body-left .engineering-technology {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-right: 5px;
+	margin-bottom: 7.5pt;
+}
+
+/*.resume-temp-6 .resume-body-left .engineering-technology .proficiency::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+/* 
+.resume-temp-6 .section .section-content li::before{
+    position: unset;
+    display: inline-block;
+    margin-right: 0.9%;
+    margin-bottom: 2px;
+} */
+
+.resume-temp-6 .resume-body-left .section .section-content .col {
+	padding-right: 20px;
+}
+
+.resume-temp-6 .resume-body-left .section .section-content .col:last-child {
+	padding-right: 0px;
+}
+
+.resume-temp-6 .resume-body-right .section .section-content .col {
+	margin-bottom: 20px;
+}
+
+.resume-temp-6 .resume-body-right .section .section-content .col:last-child {
+	margin-bottom: 0px;
+}
+
+/* -------------  Fonts -------------- */
+
+.resume-temp-6 h2 {
+	font-size: calc(var(--h2-font-size) + 2.5pt);
+}
+
+.resume-temp-6 .header .name-section .profrssion {
+	font-size: calc(var(--h3-font-size) - 6pt);
+}
+
+.resume-temp-6 h3 {
+	font-size: calc(var(--h3-font-size) - 7pt);
+}
+
+.resume-temp-6 p,
+.resume-temp-6 ul li,
+.resume-temp-6 span,
+.resume-temp-6 label {
+	font-size: calc(var(--p-font-size) - 8pt);
+}
+
+/* ----------------------------------------- */
