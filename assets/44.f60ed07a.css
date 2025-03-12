@@ -47,6 +47,7 @@ main.svelte-1vud2bh.svelte-1vud2bh {
     max-width: 1069px;
     width: 100%;
     overflow-y: auto;
+    margin: auto;
 }
 
 .actResume.svelte-1vud2bh .resumeContentBox.svelte-1vud2bh {
